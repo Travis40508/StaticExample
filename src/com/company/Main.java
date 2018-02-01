@@ -15,7 +15,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         int year = input.nextInt();
 
-        //Prints out information about a game independent of Video Game object creation (works as a utility method related to all video games)
+        //Prints out information about a game independent of a single Video Game object's creation (works as a utility method related to the world of all video games)
         System.out.println("The best game for that year is " + Game.bestGameByYear(year));
     }
 }
